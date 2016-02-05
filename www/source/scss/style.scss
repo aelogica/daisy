@@ -1,14 +1,14 @@
  /*------------------------------------*\
-	   {o}        _       _  
-	    |      __| | __ _(_)___ _   _ 
+	   {o}        _       _
+	    |      __| | __ _(_)___ _   _
 	   \|/    / _` |/ _` | / __| | | |
 	[~~~~~~~]| (_| | (_| | \__ \ |_| |
 	 |_____|  \__,_|\__,_|_|___/\__, |
-	          by hbrgtech       |___/ 
+	          by hbrgtech       |___/
 	https://github.com/HBRGTech/daisy
 	Created by HBRG Tech Team
-	November 2014 
-	Read about it 
+	November 2014
+	Read about it
 	http://hbrgtech.github.io/pattern-lab-team-workflow/
 \*------------------------------------*/
 
@@ -57,3 +57,29 @@
 
 // shame.scss
 @import "shame";
+
+.button {
+	background-color: #4078c0;
+}
+
+.button:hover {
+	background-color: #2a83de;
+}
+
+.button.alert {
+	background-color: #cf2a0e;
+}
+
+.button.disabled {
+	background-color: #4078c0;
+	color: #4c4c4c;
+}
+
+.button.disabled:hover {
+	background-color: #4078c0;
+	color: #4c4c4c;
+}
+
+.button.alert:hover {
+	background-color: #f04124;
+}
