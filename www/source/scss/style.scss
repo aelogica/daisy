@@ -83,3 +83,11 @@
 .button.alert:hover {
 	background-color: #f04124;
 }
+
+ul.pagination li.current a, ul.pagination li.current button {
+	background-color: #4078c0;
+}
+
+ul.pagination li.current a:hover, ul.pagination li.current button:hover {
+	background-color: #2a83de;
+}
